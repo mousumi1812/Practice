@@ -2,6 +2,7 @@
 nbr15=read.csv("nb_15_glm.csv")
 head(nbr15)
 ##git
+tail(nb15)
 
 
 M1=glm(Sp.richness~DEMmean+RGmean+C1.Water+C2.vegetation+C3.Built.up, family=quasipoisson, data=nbr15)
